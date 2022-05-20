@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const searchRepo = async ({ 
+const searchrepo = async ({ 
   username,
   page,
   per_page
@@ -27,4 +27,4 @@ const searchRepo = async ({
   }
 };
 
-module.exports = { searchRepo }
+module.exports = { searchrepo }
