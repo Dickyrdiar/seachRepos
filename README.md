@@ -11,7 +11,7 @@ npm library for searching repos github and find repostiry with github search API
  yarn install searchrepos
  ```
  
- #usage
+ # usage
  ```
  using import 
  `import { searchrepos } from 'searchrepos' `
