@@ -27,8 +27,4 @@ const searchRepo = async ({
   }
 };
 
-searchRepo({
-  username: 'Dickyrdiar',
-  page: 1,
-  per_page: 20
-}).then((repositories) => console.log(repositories));
+module.exports = { searchRepo }
