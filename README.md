@@ -14,11 +14,41 @@ yarn install searchrepos
 
 # usage
 
-```
 using import
-`import { searchrepos } from 'searchrepos' `
 
-useing const
-`const searchrepos = require('searchrepos') `
+```javascript
+import { searchrepos } from "searchrepos";
+```
 
+using const
+
+```javascript
+const searcgrepos = require("searcgrepos");
+```
+
+#example
+
+using promise
+
+```javascript
+searchrepos({
+  username: "Dickyrdiar",
+  page: "1",
+  per_page: "50",
+});
+```
+
+using async
+
+```javascript
+const getRepositories = async function () {
+  const repositories = await getRepos({
+    username: "Dickyrdiar",
+    page: 1,
+    per_page: 50,
+  });
+  console.log(repositories);
+};
+
+getRepositories();
 ```
