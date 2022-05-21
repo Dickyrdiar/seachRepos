@@ -14,11 +14,11 @@ yarn install searchrepos
 
 # usage
 
-```
 using import
-`import { searchrepos } from 'searchrepos' `
+```javascript
+import { searchrepos } from 'searchrepos'
+````
 
-useing const
-`const searchrepos = require('searchrepos') `
-
-```
+using const 
+```javascript
+const searcgrepos = require('searcgrepos') 
